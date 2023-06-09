@@ -1,13 +1,22 @@
 package App::daydiff ;  
-our $VERSION = '0.057' ; 
+our $VERSION = '0.058' ; 
 our $DATE = '2023-06-09T19:24+09:00' ; 
 
 =encoding utf8
 
+=head1 NAME
+
+App::daydiff -- Calculates the date differences between 1st and 2nd columns given TSV formatted input.
+
+=head1 SYNOPSIS
+
+This module provides a Unix-like command `F<daydiff>'. 
+
+=head1 DESCRIPTION
+
 ■■ コマンド daydiff の動作 ■■
 
- 先頭2列の YYYY-MM-DD 形式の日付に対して、
- 日数の差を出力する。
+ 先頭2列の YYYY-MM-DD 形式の日付に対して、日数の差を出力する。
 
  オプション: 
     -a 日付の差を表す数を、入力の前につける。
@@ -16,8 +25,8 @@ our $DATE = '2023-06-09T19:24+09:00' ;
     -u str : 日付として読み取れない場合に出力する文字列
 
     -, str : 入出力の区切り文字をタブ文字でなくて str に変更する。
-    -~ 出力の符号を反転する。 
-    -+ num : 出力する日付に最後に加算する数。調整用。
+    -~     : 出力の符号を反転する。 
+    -+ num : 調整用。計算した日数差に対して、加算する値 num を指定する。
 
 =head1 AUTHOR
 
