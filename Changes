@@ -2,5 +2,5 @@
 Revision history for the module "App::daydiff"
 
 ----- : 2016-06-22 12:32 +0900  daydiffを最初に作成。
-
-y
+0.054 : 2023-06-09 10:45 +0900  A package with a command `daydiff' is created. 
+0.055 : 2023-06-09 11:31 +0900  Minor changes are added to correct typo-like mistakes.

@@ -1,6 +1,6 @@
 This module provides a UNIX-like command `daydiff'. 
 
- Copyright (c) 2020-2023 Toshiyuki SHIMONO. All rights reserved.
+ Copyright (c) 2016,2023 Toshiyuki SHIMONO. All rights reserved.
  This program is free software; you can redistribute it and/or
  modify it under the same terms as Perl itself.
 
